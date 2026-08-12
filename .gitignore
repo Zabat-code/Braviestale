@@ -1,0 +1,15 @@
+# Ren'Py generated / runtime
+game/cache/
+game/saves/
+*.rpyc
+*.rpyb
+
+# Ren'Py editor / OS
+.renpy/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.pyc

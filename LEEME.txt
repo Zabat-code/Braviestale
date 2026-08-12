@@ -1,0 +1,88 @@
+========================================================
+CÓMO PROBAR ESTE PROYECTO EN RENPY
+========================================================
+
+1. Abre RenPy Launcher.
+2. En "Select Project Directory" o similar, elige esta carpeta
+   "proyecto_renpy" completa (la que contiene la carpeta "game").
+   RenPy detecta un proyecto por la presencia de la carpeta
+   "game" dentro del directorio seleccionado — asegúrate de
+   seleccionar la carpeta PADRE, no "game" directamente, si el
+   launcher te lo pide así. Si tu versión del launcher solo
+   permite "importar" o "abrir" una carpeta con .rpy dentro,
+   selecciona directamente "proyecto_renpy".
+3. Dale a "Launch Project" (o el botón equivalente) para correr
+   el juego.
+
+--------------------------------------------------------
+QUÉ CONTIENE ESTE PAQUETE
+--------------------------------------------------------
+
+game/
+  00_images_placeholder.rpy   -> declara todos los fondos y
+                                  sprites como placeholders
+  01_stats_system.rpy         -> los 10 rasgos, tutorial, don
+                                  elemental
+  02_combat_system.rpy        -> motor de combate por turnos
+  03_characters.rpy           -> elenco de 6 personajes jugables
+  04_chapter1_script.rpy      -> guion completo del Capítulo 1
+                                  (contiene el label "start")
+  05_bestiario_tipos.rpy      -> sistema de tipos elementales,
+                                  tipos de arma, y las 60+
+                                  entradas de monstruos por bioma
+  06_troll_puente.rpy         -> jefe Troll, pociones, puente,
+                                  misión de rescate y jefe Arpía
+  07_npcs_mundo.rpy           -> NPCs de ambientación (Thrain,
+                                  Lyanwë, Gorrak/Coliseo, escena
+                                  de soldados/fanáticos)
+  08_diario.rpy                -> sistema de Diario (resume cada
+                                  arco de personaje en prosa)
+  09 a 14_arco_*.rpy           -> los 6 arcos narrativos de party
+                                  (Doran, Mira, Theron, Wren,
+                                  extensión de Elyra, extensión
+                                  de Sable)
+
+  images/bg/          -> 37 fondos placeholder (color sólido +
+                          nombre de la escena escrito encima)
+  images/characters/  -> 24 sprites placeholder (mismo criterio)
+  audio/music/         -> 5 pistas de música, silenciosas
+                          (30 segundos cada una, en loop)
+  audio/sfx/           -> 8 efectos de sonido, silenciosos
+                          (1 segundo cada uno)
+
+En la raíz de este paquete (fuera de game/):
+  historia_capitulo1_resumen.txt    -> documento narrativo
+                                        completo, sin código
+  guia_direccion_arte_bestiario.txt -> guía de estilo visual
+                                        para el bestiario
+
+--------------------------------------------------------
+IMPORTANTE — ESTO ES UN BORRADOR JUGABLE, NO ARTE FINAL
+--------------------------------------------------------
+Todos los fondos y personajes son placeholders de color sólido
+generados automáticamente — sirven para que el juego SEA
+EJECUTABLE de principio a fin sin romperse por assets
+faltantes, no como arte definitivo. Lo mismo aplica al audio:
+son pistas silenciosas solo para que "play music"/"play sound"
+no arroje error.
+
+Cuando tengas arte y audio reales, solo reemplaza los archivos
+dentro de images/ y audio/ manteniendo el mismo nombre de
+archivo — el guion ya referencia esos nombres, así que no hace
+falta tocar ningún .rpy para hacer el cambio.
+
+--------------------------------------------------------
+COSAS A REVISAR AL PROBAR (según lo conversado)
+--------------------------------------------------------
+- Todo esto sigue siendo BORRADOR: puedes esperar que, al jugar,
+  quieras reordenar escenas, recortar diálogo, o ajustar balance
+  de combate (niveles, daño, HP).
+- El sistema de combate deja elegir tipo de arma (Corte/
+  Punzante/Impacto/Proyectil) en cada ataque del protagonista;
+  los compañeros de party tienen arma fija por ahora.
+- El Diario se accede desde el hub de la ciudad ("Consultar el
+  Diario") y resume en prosa el estado de cada arco de personaje
+  sin mostrar números de progreso.
+- Los combates contra la Bruja y la Arpía son obligatorios de
+  ganar (reintento inmediato si pierdes). El resto de combates
+  narrativos permiten Game Over normal.
