@@ -1,0 +1,279 @@
+========================================================
+GUÍA MUSICAL — CAPÍTULO 1 "LA FORJA ROTA"
+Mood board por pista: tempo, instrumentación, referencias
+========================================================
+
+Esta guía cubre las 5 pistas ya referenciadas en el código
+(music/bosque_ambiente.ogg, ciudad_ambiente.ogg, jefe_tema.ogg,
+persecucion.ogg, tension.ogg) y sugiere 2 adicionales que
+detecté como huecos narrativos (tema de tutorial/hogar, y
+tema de resolución/créditos). Todas deben ser loopeables sin
+corte audible — RenPy las reproduce con "loop" activado.
+
+Para cada pista incluyo:
+- Dónde suena exactamente en el guion (para calibrar duración
+  e intensidad)
+- Tempo y tonalidad sugerida
+- Instrumentación
+- 2-3 referencias de OSTs reales con ese mood
+- Dónde buscar algo parecido ya hecho, libre de derechos
+
+--------------------------------------------------------
+1. music/bosque_ambiente.ogg
+--------------------------------------------------------
+DÓNDE SUENA: Llegada al Bosque Gris (Escena 3), durante la
+exploración de los 2 tramos antes del Troll. También podría
+reutilizarse en el punto de descanso de la cueva (más abajo)
+bajado de volumen.
+
+MOOD: Inquietud contenida, no terror — es un bosque que
+"debería" ser seguro pero ya no se siente así. Tensión baja,
+sostenida, nunca estalla.
+
+TEMPO: 60-70 BPM, sin percusión marcada (o percusión muy
+distante/apagada). Compás libre, casi rubato en las frases de
+viento.
+
+INSTRUMENTACIÓN: Cuerdas graves sostenidas (celo, contrabajo)
+como colchón. Flauta o clarinete bajo tocando una melodía
+simple y espaciada, casi como un llamado de pájaro distorsionado.
+Textura ambiental de fondo (viento, hojas) mezclada con el
+score, no solo foley.
+
+REFERENCIAS DE OST:
+- "Whispering Forest" — motivos de bosque de Dark Souls (Michael
+  Wandmacher / Motoi Sakuraba), esa sensación de belleza que
+  esconde peligro.
+- Los cues de bosque de Shadow of the Colossus (Kow Otani) —
+  cuerdas espaciadas, mucho aire entre notas.
+- Hollow Knight, tema de "Greenpath" (Christopher Larkin) —
+  para la calidez inquietante, aunque este último es más
+  orgánico/vivo.
+
+DÓNDE BUSCAR ALGO PARECIDO YA HECHO:
+- Incompetech (Kevin MacLeod) — buscar "Mysterioso" o
+  "Wooden Legends", tono similar.
+- itch.io, tag "fantasy forest ambient music"
+- OpenGameArt.org, categoría Music > buscar "forest exploration"
+
+--------------------------------------------------------
+2. music/tension.ogg
+--------------------------------------------------------
+DÓNDE SUENA: El ataque a la aldea (Escena 2), el enfrentamiento
+inicial contra el Troll, el segundo encuentro con la Bruja, y
+el arranque del clímax final contra la horda. Es la pista más
+reutilizada — necesita sentirse flexible para varios contextos.
+
+MOOD: Amenaza inminente, cuerpo en alerta. No es un tema de
+"batalla" en sí (para eso está jefe_tema), es la antesala —
+el momento justo antes de que algo malo empiece.
+
+TEMPO: 90-100 BPM, pulso rítmico claro pero no agresivo
+todavía — percusión tribal/orgánica de baja intensidad
+(tambores graves, golpes espaciados) en vez de batería.
+
+INSTRUMENTACIÓN: Cuerdas en tremolo (violines/violas) para la
+tensión, metales graves (trombón, corno) entrando en acordes
+cortos y disonantes, percusión de tambor de guerra distante.
+Sin melodía principal clara — todo textura y pulso.
+
+REFERENCIAS DE OST:
+- Attack on Titan, "Call of Silence" (intro instrumental, antes
+  de que entre el coro) — esa sensación de alerta contenida.
+- The Witcher 3, cues de "Ambush"/combate menor (Marcin
+  Przybyłowicz) — tensión sin ser tema de jefe.
+- Overlord (el anime), los stingers de tensión antes de
+  combates de Ainz — metales graves, disonancia controlada.
+
+DÓNDE BUSCAR ALGO PARECIDO YA HECHO:
+- Incompetech — "Dark Descent" o "Undercover Vibes" (versión
+  orquestal tensa, no la de espías).
+- itch.io, tag "dark fantasy tension music"
+- Kevin MacLeod / Free Music Archive, categoría "Suspense"
+
+--------------------------------------------------------
+3. music/persecucion.ogg
+--------------------------------------------------------
+DÓNDE SUENA: La huida de la Bruja tras descubrir su trampa
+(Escena 7), cuando invoca las sombras y el grupo corre por el
+bosque de noche.
+
+MOOD: Pánico físico, adrenalina pura. A diferencia de tension.ogg
+(alerta contenida), aquí ya está pasando — el cuerpo corre, el
+corazón golpea.
+
+TEMPO: 140-160 BPM, percusión constante y urgente (redoble
+rápido, sin respiro). Sensación de estar quedándose sin aire.
+
+INSTRUMENTACIÓN: Cuerdas en staccato rápido y repetitivo
+(patrón ostinato), percusión de taiko o tambores orquestales
+a tempo completo, metales cortos y punzantes marcando acentos.
+Considerar un elemento vocal/coral gutural muy de fondo para
+la sensación de "algo persiguiendo" (opcional, con cuidado de
+no saturar).
+
+REFERENCIAS DE OST:
+- Attack on Titan, "Vogel im Käfig" o los cues de persecución
+  de titanes — ostinato de cuerdas + percusión urgente.
+- Mob Psycho 100, los cues de acción rápida cuando Mob pierde
+  el control (más electrónico/distorsionado, útil para la
+  textura de "algo antinatural persiguiendo").
+- Sekiro, tema de persecución/alerta ("Snake Eyes Shirahagi"
+  en su versión más urgente).
+
+DÓNDE BUSCAR ALGO PARECIDO YA HECHO:
+- Incompetech — "Crypto" o "Hitman" (tienen ese pulso urgente,
+  aunque el segundo es más de thriller moderno, funciona igual).
+- itch.io, tag "chase music fantasy"
+- OpenGameArt, buscar "action chase orchestral"
+
+--------------------------------------------------------
+4. music/jefe_tema.ogg
+--------------------------------------------------------
+DÓNDE SUENA: Combate contra el Troll del Bosque, contra la
+Arpía (revelación de la Bruja), y contra el Mago Domador en
+el clímax final. Es el tema de jefe genérico — considera si
+más adelante quieres una variación distinta para el Mago
+Domador (ver nota al final).
+
+MOOD: Amenaza declarada, poder real en juego. Debe sentirse
+"más grande" que tension.ogg — esto ya no es alerta, es la
+pelea en sí.
+
+TEMPO: 120-130 BPM, con un patrón rítmico repetitivo y pesado
+(el tipo de "motor" que sostiene un combate largo sin cansar
+al oído). Debe permitir loop cómodo de 1-2 minutos.
+
+INSTRUMENTACIÓN: Percusión orquestal pesada (timbales, bombo
+grave) marcando el pulso, metales en fanfarria corta y oscura
+(no triunfal — amenazante), coro masculino gutural u órgano
+para el peso "prestigioso" tipo Overlord, cuerdas agresivas en
+las secciones de mayor intensidad.
+
+REFERENCIAS DE OST:
+- Overlord, "Overlord" (tema principal) o los cues de combate
+  de Ainz — órgano + coro + orquesta pesada, la referencia más
+  directa a la estética que ya definimos.
+- Dark Souls III, temas de jefe como "Abyss Watchers" — cuerdas
+  agresivas, coro, sensación de peso.
+- Nier Automata, "Weight of the World" (versión instrumental/
+  combate) para el elemento coral distorsionado, más cercano al
+  toque Mob Psycho/Blood-C que queremos para jefes con fusión.
+
+DÓNDE BUSCAR ALGO PARECIDO YA HECHO:
+- itch.io, tag "boss battle orchestral dark fantasy"
+- OpenGameArt, buscar "epic boss fight" (filtrar por licencia
+  CC0 o CC-BY para uso comercial seguro)
+- Incompetech — "Rulers of the Deep War" o "Battle King" tienen
+  ese peso, aunque son menos "oscuros" que lo ideal.
+
+--------------------------------------------------------
+5. music/ciudad_ambiente.ogg
+--------------------------------------------------------
+DÓNDE SUENA: Llegada a la Ciudadela del Valle Hondo y todo el
+hub de misiones (Escena 8 en adelante) — es la pista que más
+tiempo va a sonar en loop, ya que cubre potencialmente los 30
+días del contador. Necesita ser la MENOS fatigante del set.
+
+MOOD: Alivio cauteloso, normalidad frágil. Hay seguridad, pero
+también el peso de ser refugiados — no es un tema alegre pleno,
+es más bien "vida que continúa a pesar de todo".
+
+TEMPO: 80-90 BPM, ritmo relajado con textura de vida cotidiana
+(posible uso ligero de percusión de mercado/pasos, muy de
+fondo). Debe sonar bien tanto en loop largo como interrumpido
+por diálogo constantemente (no debe tener climaxes fuertes que
+se sientan cortados a media frase).
+
+INSTRUMENTACIÓN: Cuerdas cálidas de fondo, un instrumento
+solista folk (violín, arpa, o flauta) llevando una melodía
+simple y memorable, posible acordeón o laúd para dar textura
+de "ciudad medieval viva". Nada de percusión pesada.
+
+REFERENCIAS DE OST:
+- The Witcher 3, temas de Novigrad/tabernas (Percival, Marcin
+  Przybyłowicz) — folk cálido con un toque melancólico.
+- Persona 5, temas de hub tipo "Tokyo Daylight" — para la
+  sensación de "vida continúa", aunque con menos folk medieval.
+- Overlord, los cues de ciudad/mercado (más tranquilos que el
+  tema principal) — mismo universo estético.
+
+DÓNDE BUSCAR ALGO PARECIDO YA HECHO:
+- Incompetech — "Wanderer" o "Sneaky Snitch" (este último es
+  más juguetón, mejor para escenas puntuales de misión que
+  para loop largo de hub).
+- itch.io, tag "medieval town ambient" o "fantasy village loop"
+- OpenGameArt, buscar "medieval town theme"
+
+--------------------------------------------------------
+PISTAS ADICIONALES SUGERIDAS (huecos detectados)
+--------------------------------------------------------
+
+## music/hogar_tutorial.ogg (nueva, sugerida)
+DÓNDE SONARÍA: Todo el tutorial de 3 días en Aldenbrock, antes
+del ataque — actualmente esas escenas no tienen música asignada
+en el código.
+
+MOOD: Calidez simple, sin urgencia — el "antes" que hace más
+doloroso el "después". Casi folk doméstico.
+
+TEMPO: 70 BPM, muy relajado.
+
+INSTRUMENTACIÓN: Guitarra acústica o laúd solo, quizás con un
+segundo instrumento de viento entrando en las repeticiones.
+Textura mínima — esta es la pista más "desnuda" del set,
+justamente para que su ausencia (cuando llega el ataque) se
+note fuerte.
+
+REFERENCIAS: Los temas de "hogar" de Studio Ghibli (Joe
+Hisaishi) — simplicidad melódica memorable. También el tema de
+aldea inicial de Fire Emblem: Three Houses.
+
+DÓNDE BUSCAR: Incompetech — "Wholesome" o "Comfort Zone".
+
+## music/resolucion_final.ogg (nueva, sugerida)
+DÓNDE SONARÍA: Tras vencer al Mago Domador, durante el cierre
+del Capítulo 1 (la escena final antes de "FIN DEL CAPÍTULO 1").
+
+MOOD: Alivio agridulce, no triunfo pleno — sobrevivieron, pero
+la pregunta final ("¿por qué nos persiguen?") deja todo abierto.
+
+TEMPO: 65-75 BPM, sin resolver completamente armónicamente (un
+final que no cierra del todo, reflejando el gancho hacia el
+Capítulo 2).
+
+INSTRUMENTACIÓN: Cuerdas suaves, posible retomar el motivo
+melódico de hogar_tutorial.ogg pero en modo menor o con
+armonía alterada — un callback musical que refuerza que "esto
+ya no es lo mismo de antes".
+
+REFERENCIAS: Los créditos de mitad de temporada de Attack on
+Titan (melancólicos, no resolutivos). Shadow of the Colossus,
+tema de "The End" (part 1) para esa sensación de peso sin
+triunfo.
+
+DÓNDE BUSCAR: Incompetech — "Wounded" o "Wistful Harp".
+
+--------------------------------------------------------
+NOTA SOBRE EL MAGO DOMADOR
+--------------------------------------------------------
+El diseño narrativo ya establece que el Mago Domador cambia de
+tipo elemental a mitad de combate (ver 04_chapter1_script.rpy).
+Si el presupuesto lo permite, sería un buen efecto que
+jefe_tema.ogg tenga una "fase 2" — un segundo archivo
+(jefe_tema_fase2.ogg) con la misma base rítmica pero
+instrumentación que se distorsiona (afinación ligeramente
+desviada, capas adicionales de coro gutural) para marcar el
+quiebre visual/narrativo de la transformación a mitad de pelea.
+Esto no está en el código todavía — es una sugerencia de
+producción si decides invertir en esa transición.
+
+--------------------------------------------------------
+CÓMO REEMPLAZAR LOS PLACEHOLDERS ACTUALES
+--------------------------------------------------------
+Las 5 pistas actuales en el proyecto son archivos de silencio
+generados solo para que el juego corra sin errores. Cuando
+tengas la música real (compuesta o descargada), solo reemplaza
+el archivo dentro de game/audio/music/ manteniendo EXACTAMENTE
+el mismo nombre (ej. "bosque_ambiente.ogg") — el código ya
+apunta a esos nombres, así que no hace falta tocar ningún .rpy.

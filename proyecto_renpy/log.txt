@@ -1,0 +1,51 @@
+2026-08-13 05:45:27 UTC
+Windows-11-10.0.26100-SP0
+Ren'Py 8.5.3.26051504
+
+Early init took 96 ms
+Loading error handling took 36 ms
+Loading script took 238 ms
+Loading save slot metadata took 313 ms
+Loading persistent took 0 ms
+Running init code took 68 ms
+Loading analysis data took 7 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 3 ms
+Dump and make backups took 0 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 60 ms
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 8 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 39 ms
+Analyze screens took 1 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+﻿Ren'Py 8.5.3.26051504 lint report, generated at: Thu Aug 13 01:45:27 2026
+
+game/04_chapter1_script.rpy:53 'guardia' is not an image.
+
+game/04_chapter1_script.rpy:53 Could not evaluate 'movein_right', in a with statement or clause.
+Perhaps you forgot to declare, or misspelled, a transition?
+
+game/04_chapter1_script.rpy:56 Could not evaluate 'moveout_right', in a with statement or clause.
+
+game/04_chapter1_script.rpy:359 'guardia' is not an image.
+It is advised to set config.check_conflicting_properties to True.
+
+
+Statistics:
+
+The game contains 556 dialogue blocks, containing 9,086 words and 52,734
+characters, for an average of 16.3 words and 95 characters per block.
+
+The game contains 48 menus, 61 images, and 8 screens.
+
+
+Lint is not a substitute for thorough testing. Remember to update Ren'Py
+before releasing. New releases fix bugs and improve compatibility.

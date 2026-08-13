@@ -1,0 +1,502 @@
+========================================================
+PROMPTS DE IMAGEN — CAPÍTULO 1 "LA FORJA ROTA"
+Estilo base para TODO: anime fantasy digital painting,
+calidad de producción tipo Overlord (proporciones limpias,
+iluminación cinematográfica, texturas detalladas), formato
+visual novel background/character sprite, sin texto ni marcas
+de agua, 16:9 para fondos, cuerpo completo vertical para
+personajes con fondo transparente o neutro.
+========================================================
+
+--------------------------------------------------------
+SECCIÓN 1 — FONDOS: ALDENBROCK (pueblo natal, de día)
+--------------------------------------------------------
+
+[bg herreria_interior]
+Interior of a modest medieval blacksmith's forge, warm anime
+fantasy digital painting style like Overlord. Stone walls,
+glowing forge fire in the background, hanging tools and half-
+finished swords, anvil in the center, morning light through
+a small window mixing with the orange forge glow. Cozy but
+hardworking atmosphere. Wide shot, no characters. 16:9.
+
+[bg herreria_interior night]
+Same blacksmith forge interior, now at night — only the dying
+embers of the forge glow faintly, most of the room in shadow,
+moonlight through the window casting a cold blue contrast
+against the warm embers. Tense, quiet atmosphere. 16:9.
+
+[bg pueblo_dia]
+Small medieval fantasy village square during the day, wooden
+and stone houses, dirt paths, a few market stalls, warm
+sunlight, peaceful rural atmosphere, anime fantasy style like
+Overlord's village scenes. Wide establishing shot, no
+characters. 16:9.
+
+[bg claro_entrenamiento]
+A small forest clearing near a village, used for sparring
+practice — flattened grass, a couple of wooden practice
+swords leaning against a tree stump, dappled afternoon
+sunlight through the canopy. Peaceful, nostalgic tone.
+Anime fantasy digital painting. 16:9.
+
+[bg escuela_pueblo]
+Interior of a small village schoolhouse, modest wooden desks,
+a chalkboard with simple runic symbols, warm afternoon light,
+a slightly magical undertone (dust motes catching light like
+faint sparks). Anime fantasy style. 16:9.
+
+[bg iglesia_pueblo]
+Interior of a small rural stone chapel at dusk, rows of
+simple wooden pews, candlelight, a modest altar bathed in
+warm golden light filtering through a round window above it.
+Calm, reverent atmosphere. Anime fantasy digital painting.
+16:9.
+
+[bg posada_pueblo night]
+Interior of a rustic village inn at night, dim candlelight,
+wooden tables, a fireplace casting long shadows, a mysterious
+empty corner booth partially in darkness. Slightly tense,
+secretive mood. Anime fantasy style like Overlord's tavern
+scenes. 16:9.
+
+--------------------------------------------------------
+SECCIÓN 2 — FONDOS: EL ATAQUE Y LA ALDEA EN LLAMAS
+--------------------------------------------------------
+
+[bg aldea_incendio]
+Medieval fantasy village burning at night under attack, houses
+engulfed in orange flames, thick black smoke against a dark
+sky, chaos and destruction, silhouettes of fleeing villagers
+in the distance. Dramatic, high-stakes anime fantasy digital
+painting, Overlord-quality lighting on the fire. Wide shot, no
+foreground characters. 16:9.
+
+--------------------------------------------------------
+SECCIÓN 3 — FONDOS: BOSQUE GRIS
+--------------------------------------------------------
+
+[bg bosque_entrada]
+Dense, slightly ominous fantasy forest entrance at twilight,
+tall dark trees with twisted branches, thin mist at ground
+level, muted green-grey color palette, foreboding but not
+overtly horrific. Anime fantasy digital painting. 16:9.
+
+[bg bosque_entrada day]
+Same forest entrance, now in daytime — filtered sunlight
+through a dense canopy, dappled light on the forest floor,
+still slightly eerie despite the daylight, muted green tones.
+16:9.
+
+[bg claro_ruinas_antiguas]
+A moss-covered clearing deep in a forest, ancient crumbling
+stone ruins scattered among the trees, faint mystical
+atmosphere, dim light filtering through the canopy above,
+a sense of something powerful having happened here long ago.
+Anime fantasy digital painting, Overlord-quality detail on
+the weathered stone. 16:9.
+
+[bg puente_colgante_bosque]
+An old, weathered rope and wood suspension bridge crossing a
+deep misty forest ravine, some planks visibly broken or
+missing, fog rising from below obscuring the bottom of the
+ravine. Tense, precarious atmosphere. Anime fantasy digital
+painting. 16:9.
+
+[bg cabana_bruja_exterior]
+A small, isolated wooden cabin deep in a dark forest at night,
+warm candlelight glowing from a single window, slightly
+crooked and unsettling architecture despite the inviting
+light, twisted trees surrounding it. Anime fantasy digital
+painting with a subtle uncanny quality. 16:9.
+
+[bg cabana_bruja_interior]
+Interior of a witch's forest cabin, warm fireplace light,
+shelves cluttered with jars, dried herbs hanging from the
+ceiling, a large cauldron, cozy at first glance but with
+subtle unsettling details (slightly wrong angles, jars with
+indistinct contents). Anime fantasy digital painting. 16:9.
+
+[bg cabana_bruja_interior night]
+Same witch's cabin interior, now late at night — the
+fireplace embers are low, most of the room in deep shadow,
+strange magical symbols and a cauldron visible in a dim
+adjoining room, sense of dread. Darker, more sinister version
+of the same space. 16:9.
+
+[bg bosque_noche_persecucion]
+Dense dark forest at night during a desperate chase, trees
+blurred with implied motion, moonlight breaking through the
+canopy in sharp beams, shadowy indistinct shapes lurking
+between the trees. High tension, anime fantasy digital
+painting with a Mob Psycho 100-esque unsettling distortion to
+the background shadows. 16:9.
+
+[bg cueva_entrada]
+The entrance to a rocky forest cave, partially hidden by
+overgrown roots and moss, faint light spilling out from
+within, dusk lighting outside. Slightly mysterious but not
+overtly threatening. Anime fantasy digital painting. 16:9.
+
+[bg cueva_interior]
+Interior of a rough natural cave, damp stone walls, faint
+glowing crystals or embers providing dim light, some scattered
+belongings suggesting someone has been living there (cloth,
+tools). Slightly melancholic, sheltered atmosphere. Anime
+fantasy digital painting. 16:9.
+
+--------------------------------------------------------
+SECCIÓN 4 — FONDOS: CIUDADELA DEL VALLE HONDO (exteriores)
+--------------------------------------------------------
+
+[bg ciudad_puerta_dia]
+Grand medieval fantasy city gate seen from outside, tall stone
+walls, banners, guards visible near the entrance, daylight,
+a sense of relief and safety after a long journey. Anime
+fantasy digital painting, Overlord-quality architectural
+detail. 16:9.
+
+[bg ciudad_plaza]
+Bustling medieval fantasy city plaza during the day, a stone
+fountain in the center, market stalls, diverse townsfolk in
+the background, warm sunlight, layered stone and timber
+architecture. Anime fantasy digital painting. 16:9.
+
+[bg ciudad_plaza night]
+Same city plaza at night, mostly empty, warm lantern light
+scattered around the square, quiet and a little melancholic,
+stars visible above the rooftops. Anime fantasy digital
+painting. 16:9.
+
+[bg muralla_ciudad]
+Top of a medieval fantasy city's defensive wall during the
+day, stone battlements, a clear view of the forest and hills
+beyond, a watchtower nearby. Open, slightly windswept
+atmosphere. Anime fantasy digital painting. 16:9.
+
+[bg muralla_ciudad night]
+Same city wall at night, moonlit stone battlements, distant
+torchlight flickering along the wall, a wide view of the dark
+forest beyond under a starry sky. Quiet, contemplative
+atmosphere. 16:9.
+
+[bg callejon_ciudad]
+A narrow, shadowy alley in a medieval fantasy city, uneven
+cobblestones, laundry lines overhead, muted daylight barely
+reaching the ground, a slightly grimy and tense atmosphere
+suggesting something illicit could happen here. Anime fantasy
+digital painting. 16:9.
+
+[bg coliseo_ciudad]
+Interior of a weathered stone amphitheater/arena in a fantasy
+city, worn fighting pits, sparse scattered crowd in the stone
+seating, dramatic overhead lighting. Gritty, gladiatorial
+atmosphere. Anime fantasy digital painting, Overlord-quality
+architectural detail. 16:9.
+
+--------------------------------------------------------
+SECCIÓN 5 — FONDOS: CIUDADELA DEL VALLE HONDO (interiores)
+--------------------------------------------------------
+
+[bg templo_refugio]
+Interior of a large stone temple repurposed as a refugee
+shelter, rows of simple bedrolls and makeshift partitions,
+soft light through tall stained-glass windows, a mix of
+solemn architecture and the lived-in chaos of displaced
+people. Anime fantasy digital painting. 16:9.
+
+[bg biblioteca_templo]
+A quiet library within a temple complex, tall shelves packed
+with old scrolls and books, warm candlelight, a large wooden
+reading table covered in open texts, dust motes in the light.
+Scholarly, cozy atmosphere. Anime fantasy digital painting.
+16:9.
+
+[bg biblioteca_publica_ciudad]
+A grander public city library, taller and more ornate than the
+temple's, elven-influenced architecture (elegant curved
+shelving, subtle magical light sources), tall arched windows,
+serene and refined atmosphere. Anime fantasy digital painting.
+16:9.
+
+[bg enfermeria_templo]
+Interior of a temple infirmary, rows of simple cots, herbs and
+medical supplies on shelves, soft natural light through high
+windows, clean but modest healing space. Calm, caring
+atmosphere. Anime fantasy digital painting. 16:9.
+
+[bg taberna_ciudad]
+Interior of a lively medieval fantasy city tavern during the
+day, wooden tables and benches, a bar counter in the
+background, warm lighting, a mix of patrons implied in the
+background blur. Anime fantasy digital painting. 16:9.
+
+[bg taberna_ciudad night]
+Same tavern at night, dimmer and more atmospheric, warm
+lantern light, a few scattered patrons, a quieter and more
+intimate mood than the daytime version. 16:9.
+
+[bg gremio_aventureros_interior]
+Interior of an adventurer's guild hall, a large wooden request
+board covered in notices, weapon racks along the walls, a
+counter with a ledger, practical and slightly worn
+architecture suggesting heavy use by mercenaries. Anime
+fantasy digital painting. 16:9.
+
+[bg herreria_ciudad]
+A city blacksmith's workshop, larger and more established than
+the village forge, well-organized tool racks, a dwarven-scale
+sturdy anvil and furnace setup, warm forge light. Anime fantasy
+digital painting. 16:9.
+
+--------------------------------------------------------
+SECCIÓN 6 — FONDOS: CLÍMAX (invasión de la ciudad)
+--------------------------------------------------------
+
+[bg ciudad_incendio]
+Medieval fantasy city under siege at night, buildings burning,
+smoke filling the sky lit orange by the flames, chaos in the
+streets implied through debris and abandoned stalls, a sense
+of overwhelming danger. Dramatic, high-stakes anime fantasy
+digital painting, Overlord-quality fire and smoke rendering.
+Wide shot, no foreground characters. 16:9.
+
+[bg ciudad_puerta_noche_escape]
+The rear gate of a medieval fantasy city, partially collapsed
+stonework, smoke and firelight glowing in the background from
+the city behind it, an open dark path leading away into the
+night. Desperate, urgent atmosphere. Anime fantasy digital
+painting. 16:9.
+
+--------------------------------------------------------
+SECCIÓN 7 — FONDOS: COMBATE Y ESTADOS ESPECIALES
+--------------------------------------------------------
+
+[bg combate_generico]
+Abstract battle backdrop for random encounters — a slightly
+overgrown forest path clearing, dramatic low-angle lighting,
+neutral enough to work for various generic monster fights,
+subtle tension in the composition (broken branches, disturbed
+ground). Anime fantasy digital painting. 16:9.
+
+[bg pantalla_derrota]
+A dark, somber abstract background for a game-over screen —
+deep blacks fading into a faint red-orange glow at the very
+bottom edge, almost entirely empty space, heavy and final
+mood. Minimalist, atmospheric. 16:9.
+
+========================================================
+SECCIÓN 8 — PERSONAJES: FAMILIA Y ALDEA
+========================================================
+
+[padre_herrero / Bram]
+Anime fantasy character portrait, full body, a middle-aged
+male blacksmith, muscular but weathered build, short greying
+beard, leather apron over simple work clothes, calloused
+hands, a kind but tired expression. Overlord-quality anime
+digital painting, neutral background, character sprite for
+visual novel. Vertical composition.
+
+[amigo1 / Doran, versión joven de aldea]
+Anime fantasy character portrait, full body, a teenage boy
+with a sturdy build, messy brown hair, simple peasant clothes,
+an easygoing confident grin. Earth/Tierra elemental affinity
+subtly implied through warm earthy color palette in clothing.
+Overlord-quality anime digital painting, neutral background,
+visual novel character sprite. Vertical composition.
+
+[amigo2 / Mira, versión joven de aldea]
+Anime fantasy character portrait, full body, a teenage girl
+with a slender build, dark hair tied back practically, simple
+practical clothes with a satchel of books, a thoughtful sharp
+expression. Water/Agua elemental affinity subtly implied
+through cool blue-toned color accents. Overlord-quality anime
+digital painting, neutral background, visual novel character
+sprite. Vertical composition.
+
+[doran]
+Anime fantasy character portrait, full body, a young man in
+his late teens, sturdy muscular build, messy brown hair,
+practical traveling leather armor over simple clothes, warm
+determined expression, subtle earthy green-brown color
+palette (Tierra elemental type). Overlord-quality anime
+digital painting, neutral background, visual novel character
+sprite. Vertical composition.
+
+[mira]
+Anime fantasy character portrait, full body, a young woman in
+her late teens, slender build, dark hair, practical traveling
+clothes with a small satchel of scrolls/runes, intelligent
+watchful expression, subtle cool blue color palette (Agua
+elemental type). Overlord-quality anime digital painting,
+neutral background, visual novel character sprite. Vertical
+composition.
+
+[director_escuela / Director Aldric]
+Anime fantasy character portrait, full body, an older male
+schoolteacher, neat grey hair, simple scholarly robes, wire-
+rimmed spectacles, a composed slightly aloof expression.
+Overlord-quality anime digital painting, neutral background,
+visual novel character sprite. Vertical composition.
+
+[sacerdote_iglesia / Hermana Ysolde]
+Anime fantasy character portrait, full body, a middle-aged
+female priestess, warm gentle expression, simple pale robes
+with subtle gold trim, a small holy symbol pendant, serene
+and kind demeanor. Overlord-quality anime digital painting,
+neutral background, visual novel character sprite. Vertical
+composition.
+
+[viajero_misterioso / El Viajero]
+Anime fantasy character portrait, full body, a mysterious
+cloaked figure, face partially obscured by a hood, dark
+flowing traveler's cloak, an unreadable calm expression with
+faintly glowing eyes hinting at hidden power. Subtle Sombra
+(shadow) elemental undertone — dark wisps at the cloak's edges.
+Overlord-quality anime digital painting with a slight Mob
+Psycho 100-esque unsettling stillness. Neutral background,
+visual novel character sprite. Vertical composition.
+
+[guardia_npc]
+Anime fantasy character portrait, full body, a village guard
+in simple leather and chainmail armor, practical sword at his
+hip, alert but unremarkable expression. Overlord-quality anime
+digital painting, neutral background, visual novel character
+sprite. Vertical composition.
+
+========================================================
+SECCIÓN 9 — PERSONAJES: LA BRUJA / ARPÍA
+========================================================
+
+[bruja_personaje]
+Anime fantasy character portrait, full body, an old woman in
+a dark hooded robe, unsettling calm smile, subtly WRONG
+anatomical details hinting at her true nature — slightly too-
+long fingers, an extra joint in her hand, eyes a fraction too
+far apart. Otherwise looks mostly human at first glance.
+Shadow/Sombra elemental type, dark purple-black color palette.
+Overlord-quality anime digital painting with a Blood-C-esque
+subtle body-horror undertone. Neutral background, visual novel
+character sprite. Vertical composition.
+
+[bruja_arpia]
+Anime fantasy character portrait, full body, the true form of
+the witch fully revealed as a harpy hybrid — dark feathers
+fused unnaturally with human skin, visible stitching-like
+seams where feathers meet flesh, taloned bird-like legs that
+don't quite align correctly with a humanoid torso, glowing
+yellow eyes, wings that emerge from the back at an anatomically
+wrong angle. Full body-horror transformation, Blood-C inspired
+grotesque fusion, Mob Psycho 100-esque distortion in the
+feather textures. Overlord-quality rendering detail despite
+the horror. Dark, dramatic lighting. Neutral background,
+visual novel character sprite. Vertical composition.
+
+========================================================
+SECCIÓN 10 — PERSONAJES: CIUDADELA (elenco de party)
+========================================================
+
+[theron / theron_personaje]
+Anime fantasy character portrait, full body, a young male
+scholar in his early twenties, neat dark hair, simple
+academic robes, ink-stained fingers, an intelligent slightly
+guarded expression. Overlord-quality anime digital painting,
+neutral background, visual novel character sprite. Vertical
+composition.
+
+[wren / wren_personaje]
+Anime fantasy character portrait, full body, a professional
+female field healer in her mid-twenties, practical fitted
+leather-and-cloth healer's outfit, a satchel of medical
+supplies, short practical hairstyle, a composed guarded
+expression that hints at warmth underneath. Overlord-quality
+anime digital painting, neutral background, visual novel
+character sprite. Vertical composition.
+
+[elyra_personaje]
+Anime fantasy character portrait, full body, a female city
+guard archer in her early twenties, athletic build, practical
+leather archer's armor, a bow slung across her back, short or
+tied-back hair, a sharp alert expression with a hidden softness.
+Overlord-quality anime digital painting, neutral background,
+visual novel character sprite. Vertical composition.
+
+[sable_personaje]
+Anime fantasy character portrait, full body, a female mercenary
+in her mid-twenties, lean muscular build, worn practical armor
+with visible battle-wear, a confident guarded smirk, a scar
+or two hinting at a rough past. Overlord-quality anime digital
+painting, neutral background, visual novel character sprite.
+Vertical composition.
+
+========================================================
+SECCIÓN 11 — PERSONAJES: NPCs DE AMBIENTACIÓN
+========================================================
+
+[thrain]
+Anime fantasy character portrait, full body, a dwarf blacksmith,
+stocky powerful build, thick braided beard, leather smithing
+apron, soot-stained forearms, a gruff no-nonsense expression.
+Overlord-quality anime digital painting, neutral background,
+visual novel character sprite. Vertical composition.
+
+[lyanwe]
+Anime fantasy character portrait, full body, an elf librarian,
+tall elegant build, long silver or pale hair, refined simple
+robes, pointed ears, a calm composed expression that suggests
+centuries of quiet patience. Overlord-quality anime digital
+painting, neutral background, visual novel character sprite.
+Vertical composition.
+
+[gorrak]
+Anime fantasy character portrait, full body, a massive orc
+gladiator champion, heavily muscular build, green-grey skin,
+numerous battle scars, simple practical fighting gear, tusks,
+a confident battle-hardened grin. Overlord-quality anime
+digital painting, neutral background, visual novel character
+sprite. Vertical composition.
+
+[maestro_occam]
+Anime fantasy character portrait, full body, an elderly male
+scholar, neat white beard, ornate formal academic robes
+signaling status, a condescending superior expression.
+Overlord-quality anime digital painting, neutral background,
+visual novel character sprite. Vertical composition.
+
+========================================================
+SECCIÓN 12 — PERSONAJES: ESCENA MORAL (soldados/fanáticos)
+========================================================
+
+[soldado1]
+Anime fantasy character portrait, full body, a city guard
+soldier in practical armor, a smug corrupt expression,
+slightly too casual posture for someone in uniform,
+suggesting abuse of authority. Overlord-quality anime digital
+painting, neutral background, visual novel character sprite.
+Vertical composition.
+
+[fanatico1]
+Anime fantasy character portrait, full body, a human
+supremacist street preacher, formal religious-style robes in
+pale gold tones, an unsettling calm zealous expression, hands
+clasped in a falsely serene gesture. Overlord-quality anime
+digital painting, neutral background, visual novel character
+sprite. Vertical composition.
+
+[pueblerino_asustado]
+Anime fantasy character portrait, full body, a frightened
+refugee civilian, simple worn traveling clothes, a fearful
+defensive posture, tired anxious expression. Overlord-quality
+anime digital painting, neutral background, visual novel
+character sprite. Vertical composition.
+
+========================================================
+NOTA FINAL
+========================================================
+Los prompts de personajes NO incluyen los monstruos del
+bestiario (goblins, trolls, arpías de combate, etc.) — esos
+ya tienen su propia guía de dirección de arte detallada en
+"guia_direccion_arte_bestiario.txt", organizada por tipo
+elemental en vez de por escena. Si quieres, puedo generar un
+archivo de prompts equivalente para los 60+ monstruos del
+bestiario y los 4 jefes, siguiendo esa misma guía.

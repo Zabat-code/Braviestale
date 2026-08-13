@@ -1,0 +1,42 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label interactuar_mira is defined twice, at File "game/10_arco_mira.rpy", line 50:
+label interactuar_mira:
+and File "game/10_arco_mirak.rpy", line 50:
+label interactuar_mira:
+
+
+The label mira_escena_cotidiana is defined twice, at File "game/10_arco_mira.rpy", line 70:
+label mira_escena_cotidiana:
+and File "game/10_arco_mirak.rpy", line 70:
+label mira_escena_cotidiana:
+
+
+The label mira_escena_insinuando is defined twice, at File "game/10_arco_mira.rpy", line 115:
+label mira_escena_insinuando:
+and File "game/10_arco_mirak.rpy", line 115:
+label mira_escena_insinuando:
+
+
+The label mira_escena_abierta is defined twice, at File "game/10_arco_mira.rpy", line 148:
+label mira_escena_abierta:
+and File "game/10_arco_mirak.rpy", line 148:
+label mira_escena_abierta:
+
+
+The label mira_momento_afirmacion is defined twice, at File "game/10_arco_mira.rpy", line 174:
+label mira_momento_afirmacion:
+and File "game/10_arco_mirak.rpy", line 174:
+label mira_momento_afirmacion:
+
+
+The label mira_escena_afirmada is defined twice, at File "game/10_arco_mira.rpy", line 199:
+label mira_escena_afirmada:
+and File "game/10_arco_mirak.rpy", line 199:
+label mira_escena_afirmada:
+
+
+Ren'Py Version: Ren'Py 8.5.3.26051504
+Thu Aug 13 01:11:34 2026

@@ -1,0 +1,153 @@
+========================================================
+GUÍA DE DIRECCIÓN DE ARTE — BESTIARIO
+Mezcla de referencias: Overlord (calidad/fantasía oscura
+prestigiosa), Mob Psycho 100 (distorsión psicodélica cuando
+algo pierde el control), Blood-C / Blood+ (body-horror
+visceral, fusión antinatural)
+========================================================
+
+--------------------------------------------------------
+PRINCIPIO GENERAL
+--------------------------------------------------------
+El nivel de "horror" NO se reparte por bioma — se reparte
+por TIPO ELEMENTAL. Esto ata la dirección de arte
+directamente al sistema de combate ya existente: con solo
+mirar a un enemigo, un jugador familiarizado con el juego
+debería poder intuir su tipo elemental antes de que la UI
+se lo confirme.
+
+La calidad de renderizado objetivo (proporciones limpias,
+texturas de alta fidelidad, iluminación cuidada) es la de
+Overlord en TODOS los casos — la diferencia entre tipos no
+está en cuánto "esfuerzo" de producción reciben, sino en
+qué tan retorcido/distorsionado es el DISEÑO en sí.
+
+--------------------------------------------------------
+ESTÉTICA POR TIPO ELEMENTAL
+--------------------------------------------------------
+
+## SOMBRA — horror pleno (Mob Psycho 100 + Blood-C)
+La categoría con más libertad para lo perturbador. Formas
+que empiezan reconocibles y se disuelven en algo que ya no
+respeta anatomía — extremidades de más, siluetas que
+parpadean entre estados, negro que no se comporta como
+sombra normal sino como una sustancia con voluntad propia.
+Referencia directa: los "espíritus corrompidos" de Mob
+Psycho cuando pierden el control emocional, cruzado con
+la textura orgánica-líquida de las criaturas de Blood-C.
+Ejemplos ya en el bestiario: Lobo Salvaje, Hada Corrupta,
+Araña Gigante, Espectro de Naufragio, Kelpie, Piraña
+Espectral, Murciélago Gigante, Espectro de las
+Profundidades, Enano Corrupto.
+
+## AGUA — pescados feos, sin elegancia
+Nada de sirenas hermosas ni criaturas acuáticas majestuosas.
+Diseño deliberadamente poco favorecedor: ojos desalineados,
+escamas irregulares, texturas mucosas, proporciones que
+incomodan más por lo "mal hechas" que por ser aterradoras.
+Piensa en peces de aguas profundas reales (rape, pez víbora)
+llevados a tamaño de monstruo, sin suavizar su fealdad natural.
+Ejemplos: Sirena Varada, Medusa Flotante, Pulpo Playero,
+Ninfa del Río, Serpiente Acuática, Rana Gigante Tóxica,
+Elemental de Agua, Slime Ácido.
+
+## TIERRA — simples, sin adorno
+La categoría más "de manual" — diseños robustos, funcionales,
+sin la distorsión de Sombra ni el detalle infernal de Fuego.
+Formas macizas, texturas de piedra/tierra/caparazón tratadas
+con honestidad casi minimalista. El objetivo es que se lean
+rápido en combate, sin sobrecarga visual — el contraste
+deliberado frente a lo perturbador de Sombra y Fuego.
+Ejemplos: Goblin, Ent Menor, Oso Embrujado, Cangrejo Gigante,
+Momia de Arena, Tiburón de Arena, Escorpión Gigante,
+Escarabajo Acorazado, Golem de Arena, Troglodita, Gusano de
+Roca, Kobold Minero, Basilisco Joven.
+
+## FUEGO — toque infernal suave
+No es horror pleno ni tampoco elegancia pura — hay un guiño
+demoníaco contenido: cuernos pequeños, brasas en vez de ojos,
+grietas incandescentes en la piel, pero sin llegar a la
+distorsión anatómica de Sombra. Referencia: los demonios
+"de bajo rango" de Overlord, con presencia amenazante pero
+diseño todavía legible y casi elegante en su amenaza.
+Ejemplos: Djinn Menor, Serpiente de Fuego, Salamandra de
+Dunas, Elemental de Tormenta, Wyvern Menor, Anguila
+Eléctrica Mística.
+
+## LUZ — ángeles caídos y hadas siniestras
+La subversión más irónica del set: lo que debería ser puro
+o protector está deformado o corrompido en algún grado —
+alas rotas o asimétricas, halos parpadeantes, hadas con
+sonrisas demasiado anchas. No llega al body-horror de Sombra,
+pero incomoda por contraste: algo que "debería" ser hermoso
+y no lo es del todo. Cercano a los diseños de ángeles
+caídos de Overlord (Nigredo/Albedo tienen ese filo) mezclado
+con la inquietud sutil de las hadas de Mob Psycho.
+Ejemplos: Duende Silvano, Gaviota Colosal, Elemental de Sal,
+Nix Susurrante, Halcón Espectral, Espíritu del Viento, Grifo
+Joven, Sílfide Traviesa, Cristal Viviente.
+
+## AIRE — los más simples de todos
+Deliberadamente el set con menos elaboración conceptual:
+son dinosaurios o aves, sin más vuelta. Diseño realista o
+semi-realista, sin elementos sobrenaturales visibles más
+allá de tamaño/color. Sirven de respiro visual frente al
+resto del bestiario, y refuerzan que no todo en este mundo
+necesita estar corrompido — algunas amenazas son solo
+amenazas naturales.
+Ejemplos: Gárgola Menor (excepción — es más "estatua viviente"
+que ave/dino, pero se mantiene simple en ejecución), Cuervo
+de Guerra, Buitre de las Cumbres, Cuervo Presagio, Buitre
+Carroñero.
+
+--------------------------------------------------------
+JEFES — MÁS DETALLE VISUAL, SIN IMPORTAR EL TIPO
+--------------------------------------------------------
+Los 4 jefes del Capítulo 1 reciben el nivel de detalle más
+alto sin importar a qué categoría elemental pertenezcan —
+esto es simplemente presupuesto de atención visual: son los
+encuentros que el jugador recordará, así que valen el
+esfuerzo extra de producción sin importar el estilo base.
+
+TROLL DEL BOSQUE (Tierra) — el más "simple" conceptualmente
+de los 4 jefes, pero con el mayor nivel de acabado dentro de
+esa simpleza: piel de corteza/piedra con grietas de musgo,
+proporciones brutalmente asimétricas para transmitir peso y
+fuerza bruta, sin elementos sobrenaturales — el miedo viene
+de la escala, no de la distorsión.
+
+LA BRUJA / LA ARPÍA (Sombra, en su forma revelada) — este es
+EL punto donde el body-horror de Blood-C se aplica sin
+restricción: la transformación de bruja a arpía debe leerse
+como una fusión antinatural, no como una forma "true" limpia.
+Costuras visibles entre piel humana y plumaje, articulaciones
+de las alas que no encajan correctamente en la anatomía
+humana de base, ojos que cambian de posición/color entre
+formas. La forma de bruja ya debería tener pistas sutiles de
+esto (postura ligeramente incorrecta, dedos de más) para que
+la revelación se sienta como confirmación visual, no sorpresa
+de la nada.
+
+MAGO DOMADOR (Sombra base, cambia de tipo a mitad de pelea) —
+diseño humanoide elegante en apariencia (capa, porte
+controlado, más cercano a un noble oscuro de Overlord), pero
+cuando cambia de tipo elemental a mitad de combate, el diseño
+debería fracturarse visualmente también — texturas que se
+comportan mal, un momento de distorsión Mob Psycho en la
+transición antes de asentarse en el nuevo elemento aparente.
+
+GORRAK, CAMPEÓN DEL COLISEO (Tierra, jefe opcional) — el más
+"normal" de los 4: un orco grande, cicatrizado, sin elementos
+sobrenaturales — es fuerza física pura, sin fusión ni
+corrupción de por medio. Mantiene el mismo principio de
+Tierra (simple, honesto) pero con el pulido extra de jefe.
+
+--------------------------------------------------------
+NOTA PARA IMPLEMENTACIÓN FUTURA
+--------------------------------------------------------
+Este documento es una guía de dirección de arte, no assets
+reales — sirve como referencia para quien diseñe sprites,
+ilustraciones, o encargue arte a futuro. Cuando existan
+assets reales, cada entrada del bestiario (ver
+05_bestiario_tipos.rpy) debería anotar su archivo de sprite
+correspondiente respetando esta guía por tipo elemental.

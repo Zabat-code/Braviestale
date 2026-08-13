@@ -1,0 +1,534 @@
+========================================================
+CAPÍTULO 1 — "LA FORJA ROTA"
+Documento de historia (sin código, solo narrativa y diseño)
+Versión actualizada
+========================================================
+
+--------------------------------------------------------
+PREMISA GENERAL
+--------------------------------------------------------
+Fantasía medieval de corte tolkiano. El protagonista es hijo
+de un herrero de un pequeño pueblo llamado ALDENBROCK. Tras un
+ataque nocturno de
+goblins liderados por un ogro, debe huir junto a sus dos amigos
+de la infancia. La huida los lleva a través de un bosque, la
+casa de una bruja, y finalmente a una ciudad refugio, donde
+reconstruyen algo parecido a una vida — hasta que el peligro
+que los persigue los alcanza de nuevo.
+
+Estructura temporal del capítulo:
+  - TUTORIAL (Escena 1): 3 días fijos en la aldea, antes del
+    ataque.
+  - HUIDA (Escenas 2 a 7 — bosque, Troll, puente, bruja,
+    persecución): duración indefinida, sin contador de días.
+    Existe al menos un punto de descanso a lo largo de la huida
+    donde el jugador puede optar por quedarse más días (para
+    explorar, entrenar, etc.) antes de continuar avanzando.
+  - CIUDAD REFUGIO (Escenas 8 en adelante): al llegar, arranca
+    un contador estricto de 30 días. Cada día tiene ciclo de día
+    y noche. Al cumplirse el día 30, se dispara automáticamente
+    la invasión de monstruos (Escena 10 — el clímax), sin
+    importar en qué estado de preparación esté el jugador. Esto
+    convierte cada día gastado en misiones/afinidad/entrenamiento
+    en una decisión con costo real de tiempo.
+
+--------------------------------------------------------
+SISTEMA DE PERSONAJE (contexto de diseño, no narrativo)
+--------------------------------------------------------
+El protagonista tiene 10 rasgos de estadística (Fuerza, Defensa,
+Agilidad, Vitalidad, Intelecto, Sabiduría, Percepción, Suerte,
+Carisma, Voluntad). Estos se definen mediante un tutorial
+narrativo jugable (ver escena 1) donde cada elección de diálogo
+otorga puntos a un rasgo específico.
+
+Al subir de nivel, el jugador solo gana 1 punto de rasgo (no
+varios), para evitar romper el balance del juego. Las misiones
+también otorgan puntos de rasgo como recompensa adicional.
+
+TIPO ELEMENTAL — sistema de "dones":
+En este mundo, la magia funciona así: algunas personas nacen
+con un elemento por defecto, otras deben recibir la bendición
+de un don de parte de alguien que ya lo posee. El protagonista
+llega a la edad de elegir su don la misma noche del tutorial
+(ver escena 1, bloque 6). Solo se obtiene UN don — el elegido
+esa noche — y es fijo de ahí en adelante. Las fuentes posibles:
+
+  - FUEGO — el padre puede dárselo directamente esa misma noche.
+  - AIRE — el director de la escuela del pueblo lo puede otorgar.
+  - LUZ — se obtiene yendo a la iglesia del pueblo.
+  - OSCURIDAD — un viajero de paso por la ciudad puede darlo.
+    Este viajero es, sin que el jugador lo sepa en ese momento,
+    el Mago Domador (el jefe final del capítulo). Si el jugador
+    elige este don, hay consecuencias narrativas explícitas más
+    adelante: en la batalla final contra el Mago Domador, se
+    desbloquean diálogos únicos por ese vínculo compartido.
+
+El círculo de ventajas elemental funciona con 6 tipos (Agua,
+Fuego, Tierra, Aire, Sombra, Luz) en una rueda donde cada tipo
+vence a 2 y pierde ante 2:
+  Agua vence a Fuego y Tierra; Fuego vence a Tierra y Aire;
+  Tierra vence a Aire y Sombra; Aire vence a Sombra y Luz;
+  Sombra vence a Luz y Agua; Luz vence a Agua y Fuego.
+
+Nomenclatura ya unificada: "Tierra" y "Sombra" son los nombres
+definitivos (reemplazan a "Piedra" y "Oscuridad" de versiones
+previas, tanto en este documento como en el código).
+
+SISTEMA DE ARMAS (independiente del elemental):
+4 tipos de arma: Corte, Punzante, Impacto, Proyectil. Cada
+monstruo tiene una debilidad y una resistencia de arma según su
+naturaleza física (ej. algo con caparazón es débil a Impacto,
+resiste Corte). Cada personaje jugable tiene un tipo de arma FIJO
+— excepto el protagonista, que puede variar el arma que usa.
+
+Como regalo tras el tutorial, el padre le da al protagonista dos
+armas: un arma de Proyectil y una espada (Corte).
+
+--------------------------------------------------------
+ELENCO DE PARTY (6 personajes jugables en total)
+--------------------------------------------------------
+1. DORAN — amigo de la infancia, por defecto. Tipo Tierra.
+   Fuerte, protector, algo simple pero leal.
+
+2. MIRA — amiga de la infancia, por defecto. Tipo Agua.
+   Más reflexiva, con inclinación a lo mágico/intelectual.
+
+3. THERON — erudito de la biblioteca del templo, en la ciudad
+   refugio. Se une a la party completando su cadena de
+   misiones (no es un romance, es reclutamiento narrativo puro).
+
+4. WREN — sanadora contratable en el Gremio de Aventureros de
+   la ciudad. Se une a cambio de oro; si además completas su
+   misión personal, se queda de forma permanente (motivada por
+   algo más que el contrato).
+
+5. ELYRA — arquera de la guardia de la ciudad. Es uno de los
+   DOS romances posibles. Se conoce de forma directa, visitándola
+   en el hub de la ciudad.
+
+6. SABLE — mercenaria forastera. Es el SEGUNDO romance posible.
+   A diferencia de Elyra, NO aparece si simplemente exploras el
+   hub — se descubre en medio de la cadena de misiones de
+   Theron (él menciona a una viajera con conocimientos sobre
+   runas antiguas, y seguir esa pista lleva a conocer a Sable).
+
+Solo 2 de los 6 son romanceables (Elyra y Sable). El resto son
+compañeros de historia y combate sin sistema de afinidad
+romántica.
+
+--------------------------------------------------------
+ESCENA 1 — TUTORIAL: UN DÍA EN LA FORJA
+--------------------------------------------------------
+Antes del ataque, se juega una escena tutorial ambientada un
+día normal en la herrería del padre del protagonista, BRAM. El
+jugador nombra al protagonista (por defecto "Kael").
+
+A lo largo del día, hay varios momentos con elecciones de
+diálogo, cada uno otorgando puntos a un par de rasgos opuestos:
+
+  1. En la forja, terminando una espada para la guardia:
+     golpes fuertes (Fuerza) vs. golpes precisos (Percepción).
+
+  2. Entregando la espada en el pueblo, hablando con un guardia:
+     usar el carisma para sacarle una sonrisa (Carisma) vs.
+     quedarse callado y fijarse en los alrededores (Suerte).
+
+  3. Entrenamiento con espadas de madera junto a Doran y Mira
+     en un claro: esquivar constantemente (Agilidad) vs.
+     plantarse firme a bloquear (Defensa).
+
+  4. De vuelta en casa, encuentra un libro viejo con runas
+     entre las herramientas de su padre: analizarlo con lógica
+     (Intelecto) vs. sentir si "responde" al tacto (Sabiduría).
+
+  5. Durante la cena, el padre menciona rumores de movimiento
+     goblin cerca del Bosque Gris: escuchar con calma decidida
+     (Voluntad) vs. no preocuparse, simplemente seguir comiendo
+     (Vitalidad).
+
+  6. ELECCIÓN DEL DON ELEMENTAL: el protagonista habla con su
+     padre sobre la academia de magia del pueblo. Se le explica
+     que algunos nacen con un elemento y otros reciben la
+     bendición de un don de alguien que ya lo posee. Al llegar
+     a la edad de elegir, tiene 4 caminos posibles esa misma
+     noche:
+       - Pedirle el don de FUEGO a su propio padre.
+       - Ir a ver al director de la escuela del pueblo por el
+         don de AIRE.
+       - Ir a la iglesia del pueblo por el don de LUZ.
+       - Aceptar el don de OSCURIDAD de un viajero de paso por
+         la ciudad (en secreto, el Mago Domador).
+     El jugador elige uno; esa noche se va a dormir y, según a
+     quién le pidió el don, lo obtiene al despertar (o durante
+     el sueño, a definir en la puesta en escena).
+
+  7. TIEMPO LIBRE / COMBATE INTRODUCTORIO: al final del
+     tutorial, el protagonista tiene un rato libre y va a
+     recoger más madera al bosque cercano. Ahí empiezan a
+     aparecer goblins — un primer contacto de combate, ligero,
+     antes del ataque real a la aldea. Tras el encontronazo,
+     regresa a la ciudad y le cuenta a su padre lo sucedido. El
+     padre le pregunta qué arma prefiere y termina regalándole
+     dos: un arma de tipo Proyectil y una espada (Corte).
+
+Esa noche, se va a dormir sin saber que sería la última noche
+tranquila en mucho tiempo.
+
+--------------------------------------------------------
+ESCENA 2 — EL ATAQUE A LA ALDEA
+--------------------------------------------------------
+Gritos despiertan al protagonista en mitad de la noche. El
+pueblo está siendo atacado: goblins numerosos, liderados por un
+ogro. Las casas arden.
+
+El padre aparece brevemente, ordenando al protagonista huir
+hacia el Bosque Gris, prometiendo alcanzarlo después de ayudar
+a sacar a más gente del pueblo. El jugador puede elegir obedecer
+de inmediato o intentar quedarse a ayudar (el padre insiste con
+firmeza en que corra, de cualquier forma).
+
+Doran y Mira ya están esperando. Los tres corren juntos hacia
+el bosque, dejando atrás la aldea en llamas. Aquí se forma
+oficialmente la party inicial.
+
+--------------------------------------------------------
+ESCENA 3 — BOSQUE GRIS (EXPLORACIÓN)
+--------------------------------------------------------
+El grupo avanza por el bosque durante horas. Se cruzan dos
+tramos con posibilidad de encuentros aleatorios de combate
+(monstruos de nivel bajo, propios del bioma bosque: goblins,
+lobos, arañas gigantes, hadas corruptas, etc.)
+
+Tras el segundo tramo, el bosque se abre en un claro de ruinas
+antiguas cubiertas de musgo. El camino está bloqueado — algo
+mucho más grande los espera ahí.
+
+--------------------------------------------------------
+ESCENA 4 — JEFE: EL TROLL DEL BOSQUE
+--------------------------------------------------------
+Un Troll, mucho más grande que cualquier ogro visto esa noche,
+bloquea el paso. Combate de jefe (nivel superior al resto del
+bosque).
+
+Tras derrotarlo, y ANTES de caer del todo, el Troll descarga un
+último golpe de área contra el suelo. La onda expansiva alcanza
+a los TRES personajes (protagonista, Doran y Mira), dejándolos
+a todos en un porcentaje muy bajo de su HP máximo (calculado
+dinámicamente, no un valor fijo — para que no se sienta
+artificial).
+
+Entre los restos del Troll, el botín es de solo DOS pociones
+curativas. No alcanza para los tres.
+
+  DECISIÓN 1: el jugador elige a quién dar la primera poción
+  (a sí mismo, a Doran, o a Mira).
+
+  DECISIÓN 2: con la poción restante, elige de nuevo entre
+  quienes aún no recibieron curación.
+
+Dos caminos posibles a partir de aquí:
+
+  CAMINO SEGURO — el protagonista se curó a sí mismo (en
+  cualquiera de las dos decisiones). Uno de los dos amigos
+  quedó sin poción, todavía crítico. El grupo sigue adelante
+  con esa fragilidad sin resolver.
+
+  CAMINO ARRIESGADO — el protagonista decide dar AMBAS
+  pociones a Doran y Mira, quedándose él mismo en HP crítico.
+  Como consecuencia, se disparan 3 encuentros aleatorios
+  seguidos antes de llegar al puente, todos ellos poniendo en
+  riesgo directo al protagonista malherido — un "castigo"
+  mecánico por el sacrificio, que obliga al jugador a gestionar
+  la supervivencia con lo que tenga a mano.
+
+--------------------------------------------------------
+ESCENA 5 — EL PUENTE (LA SEPARACIÓN)
+--------------------------------------------------------
+El grupo llega a un puente colgante viejo sobre un barranco,
+única forma de cruzar.
+
+  SI NADIE QUEDÓ CRÍTICO (camino arriesgado, protagonista se
+  sacrificó): los tres cruzan con dificultad, pero sin
+  incidentes. La party sigue completa.
+
+  SI ALGUIEN QUEDÓ SIN CURAR (camino seguro): ese personaje —
+  Doran o Mira, el que se haya quedado sin poción — no tiene
+  fuerzas suficientes cuando una madera del puente cede a medio
+  cruce. El protagonista alcanza a sujetarse, pero su amigo/a
+  cae hacia la niebla del barranco. El resto del puente se
+  derrumba, cortando cualquier posibilidad de regresar por
+  él/ella en este momento.
+
+  El protagonista continúa con un solo acompañante de los dos
+  originales, cargando con esa pérdida. (El compañero perdido
+  no está muerto — se recupera más adelante, ver Escena 9-B.)
+
+--------------------------------------------------------
+ESCENA 6 — LA CASA DE LA BRUJA
+--------------------------------------------------------
+Tras el puente (con uno o dos acompañantes, según lo anterior),
+el grupo encuentra una cabaña con luz encendida en medio del
+bosque. Deciden acercarse — están exhaustos y no tienen muchas
+más opciones.
+
+Dentro, conocen a la Bruja del Bosque, quien los recibe con una
+calma inquietante y les ofrece refugio, insinuando que "nada es
+gratis" en el bosque. El jugador puede aceptar sin cuestionar o
+preguntar qué es lo que quiere a cambio. De cualquier forma,
+duermen ahí esa noche — el primer descanso real desde el ataque.
+
+(Nota importante: esta Bruja es, en realidad, medio arpía. En
+esta primera aparición se deja ver que vuela / tiene algo
+distinto — un indicio visual, sin revelar del todo qué es.)
+
+--------------------------------------------------------
+ESCENA 7 — ESCAPE DE LA BRUJA Y PERSECUCIÓN
+--------------------------------------------------------
+El protagonista despierta en mitad de la noche y descubre a la
+bruja preparando algo inquietante — símbolos, un caldero,
+ingredientes que sugieren que sus "huéspedes" iban a ser el
+ingrediente principal de algo. No fue hospitalidad: fue una
+trampa.
+
+El jugador elige escapar con sigilo o simplemente correr de
+inmediato. En ambos casos, la bruja los descubre y libera
+sombras que cobran forma para perseguirlos. Se desata una
+persecución por el bosque de noche.
+
+PUNTO DE DESCANSO — LA CUEVA: tras recorrer cierta distancia,
+el grupo logra un respiro y descansa en una cueva que muestra
+rastros de haber sido usada antes por otras personas del pueblo
+que también huyeron esa noche. El protagonista puede encontrar
+objetos reconocibles: ropa de algún vecino del pueblo, y
+espadas sin filo — de las que hacía su propio padre — que
+fueron abandonadas ahí porque los pueblerinos que las llevaban
+las dañaron durante la huida. Ninguno de esos aldeanos está
+presente en la cueva; solo quedan sus rastros, lo cual confirma
+que otros sí lograron escapar sin mostrarlos todavía en pantalla.
+Este es el punto donde el jugador puede optar por quedarse más
+días si lo desea (la huida no tiene contador de días fijo).
+
+Al día siguiente, retomando el camino,
+se topan de nuevo con la bruja, que los había estado buscando
+todo ese tiempo — un combate directo contra ella en esta forma
+(aún no revelada como arpía del todo). Este combate es
+OBLIGATORIO de ganar para avanzar; perderlo resulta en Game
+Over / reintento.
+
+Tras vencerla en este encuentro, el grupo continúa camino y,
+más adelante, llegan finalmente a la ciudad amurallada.
+
+--------------------------------------------------------
+ESCENA 8 — LLEGADA A LA CIUDAD REFUGIO
+--------------------------------------------------------
+La Ciudadela del Valle Hondo. Un guardia llamado CORWYN los
+reconoce como
+sobrevivientes del pueblo atacado y los deja entrar, indicando
+que hay más gente de su aldea refugiada en el Templo.
+
+En el Templo-Refugio, se reencuentran con otros sobrevivientes
+del pueblo. Aquí comienza la etapa de "vida en la ciudad": días
+que pasan mientras el protagonista conoce gente nueva, hace
+misiones, y decide en quién invertir su tiempo.
+
+--------------------------------------------------------
+ESCENA 9-A — LA CIUDAD: MISIONES Y RECLUTAMIENTO
+--------------------------------------------------------
+Desde un punto central (el "hub" de la ciudad), el jugador
+puede visitar distintos lugares y personajes:
+
+  ELYRA (muralla de la ciudad) — arquera de la guardia. Se le
+  puede ofrecer ayuda entrenando arquería (más afinidad) o
+  simplemente charlar sobre la ciudad (menos afinidad, pero
+  igual construye vínculo). Es un romance directo.
+
+  THERON (biblioteca del templo) — erudito. Mostrarle el libro
+  de runas encontrado en la fragua del padre desata una
+  reacción de fascinación de su parte, y él menciona a una
+  viajera con conocimientos similares vista cerca de la
+  taberna. Seguir esa pista lleva a...
+
+  SABLE (taberna, solo accesible siguiendo la pista de Theron)
+  — mercenaria forastera. Es el segundo romance, "escondido"
+  narrativamente detrás de la misión de Theron en vez de ser
+  obvio desde el principio. El jugador puede ser directo con
+  ella (más afinidad) o cauteloso (menos afinidad).
+
+  Al completar esta cadena, Theron se une oficialmente a la
+  party.
+
+  GREMIO DE AVENTUREROS — aquí se puede contratar a WREN,
+  sanadora, pagando una cantidad de oro. Si el jugador paga,
+  ella se une, pero de forma condicional ("mercenaria
+  contratada"). Inmediatamente después, hay una misión de
+  permanencia: ayudarla con heridos del pueblo sin cobrar por
+  ello. Completarla hace que Wren se quede de forma
+  permanente, motivada por algo más que el contrato original;
+  si el jugador se limita a decir que ya cumplió su parte del
+  trato, Wren sigue colaborando en combate pero sin ese vínculo
+  más profundo.
+
+El jugador no está obligado a completar todas estas líneas —
+puede especializarse en unas pocas, lo cual afecta directamente
+quién estará disponible (y en qué grado de vínculo) para el
+clímax del capítulo.
+
+También existe la opción de ir a entrenar/combatir cerca de la
+ciudad, para ganar experiencia y prepararse antes del
+enfrentamiento final del capítulo.
+
+--------------------------------------------------------
+ESCENA 9-B — MISIÓN: RECUPERAR AL COMPAÑERO PERDIDO
+(y el jefe ARPÍA)
+--------------------------------------------------------
+Un local de la ciudad, BETTINA, reporta que le han robado objetos
+brillantes de su casa. Siguiendo el rastro del robo, el grupo
+llega hasta una cueva.
+
+  SI EL PERDIDO ES DORAN: lo encuentran escondido dentro de la
+  cueva. Peleará junto al grupo contra lo que los ataque ahí
+  (posibilidad de que el jugador elija si el personaje
+  rescatado participa activamente en el combate). Durante o
+  después de la pelea hay diálogos de reencuentro — Doran
+  explica que cayó del puente mientras huía de la persecución
+  de la Arpía, y que sobrevivió escondiéndose.
+
+  SI LA PERDIDA ES MIRA: estaba escondida en una cueva
+  custodiada por monstruos, sobreviviendo gracias a un árbol
+  cercano con el que se alimentó. Mismo esquema: posible
+  combate, reencuentro, diálogos, y la opción de que participe
+  en la pelea si el jugador lo decide.
+
+Tras el reencuentro y los diálogos, aparece la Bruja de las
+escenas anteriores — y AQUÍ se revela del todo: se transforma
+en Arpía ante el grupo. Es el jefe de esta misión.
+
+(Contexto narrativo de fondo, aún no revelado directamente al
+jugador en esta escena, pero que sustenta el lore: existe un
+grupo de magos que usa magia para comunicarse con animales, y
+en su búsqueda de más poder, algunos se han fusionado con
+monstruos o demonios. La Bruja/Arpía es resultado de eso — está
+fusionada, medio arpía.)
+
+Al completar esta misión, el compañero perdido (Doran o Mira)
+se reincorpora a la party de forma permanente.
+
+--------------------------------------------------------
+ESCENA 10 — CLÍMAX: EL ATAQUE A LA CIUDAD
+--------------------------------------------------------
+Tras un número de días en el refugio, los gritos regresan.
+Los goblins y el ogro que atacaron la aldea original llegaron
+hasta la ciudad — esto no es casualidad, algo (o alguien) los
+está siguiendo específicamente.
+
+El caos se apodera de las calles. El protagonista no puede
+ayudar a todos.
+
+El sistema de rescate se activa aquí: de los dos romances
+posibles (Elyra y Sable), solo aquellos con quienes el jugador
+construyó suficiente afinidad durante la estancia en la ciudad
+se vuelven "candidatos" a ser rescatados en medio del caos. Si
+no se conoció a ninguno lo suficiente, el protagonista corre
+solo (con su acompañante de siempre) sin poder buscar a nadie
+más.
+
+Si hay candidatos, el jugador puede intentar rescatar hasta a
+ambos (Elyra y/o Sable), cada intento resuelto como un pequeño
+combate contra la horda de camino a encontrarles. El nivel de
+vínculo construido previamente afecta qué tan "limpio" o
+complicado es ese rescate.
+
+Theron y Wren (si fueron reclutados anteriormente) no pasan por
+este sistema de rescate — al ya ser parte fija de la party, se
+asume que evacúan junto al grupo automáticamente.
+
+El jefe final de esta oleada es el MAGO DOMADOR — líder de un
+grupo de magos que usa hechicería para comunicarse con animales
+y, en su búsqueda de poder, se ha estado fusionando con
+monstruos y demonios (el mismo origen que explica lo que le
+pasó a la Bruja/Arpía). Es de tipo elemental Sombra/Oscuridad
+en su forma original, pero puede cambiar de tipo a mitad de la
+pelea. Invoca y potencia a la horda de monstruos reciclados de
+zonas anteriores.
+
+Si el protagonista eligió el don de OSCURIDAD del viajero
+misterioso durante el tutorial (Escena 1, bloque 6), se
+desbloquean diálogos únicos en esta pelea: el Mago Domador
+resulta ser ese mismo viajero, y hay un reconocimiento mutuo
+explícito entre ambos.
+
+--------------------------------------------------------
+ESCENA 11 — CIERRE DEL CAPÍTULO 1
+--------------------------------------------------------
+El grupo —protagonista, su acompañante de siempre, y quienes
+haya logrado reunir o rescatar— alcanza las puertas traseras de
+la ciudad, ya derrumbándose. A la distancia, ven que el ogro que
+lideró el primer ataque en la aldea también está aquí. No es
+casualidad: algo los persigue específicamente a ellos.
+
+El capítulo cierra con esa certeza inquietante y la pregunta
+abierta: ¿por qué un pueblo de herreros y granjeros sería el
+objetivo de un ataque tan organizado?
+
+========================================================
+JEFES DEFINIDOS PARA EL CAPÍTULO 1 (resumen rápido)
+========================================================
+1. TROLL DEL BOSQUE — bioma Bosque. Ataque final de área que
+   detona la escena de las pociones y, potencialmente, la
+   separación en el puente.
+
+2. LA BRUJA (primer encuentro, tras la persecución nocturna y
+   el descanso en cueva) — combate directo contra ella en su
+   forma de bruja, sin revelar aún que es medio arpía.
+
+3. LA ARPÍA (= LA BRUJA, transformada) — jefe de la misión de
+   rescate del compañero perdido. Aparece después del
+   reencuentro con Doran o Mira (según cuál se perdió),
+   revelándose ante el grupo. Es el mismo personaje que la
+   Bruja, ahora mostrado en su forma real.
+
+4. HORDA + MAGO DOMADOR — clímax en la ciudad. Oleada de
+   monstruos variados (reciclando enemigos ya vistos) liderada
+   por el Mago Domador, tipo elemental Sombra/Oscuridad
+   originalmente, con capacidad de cambiar de tipo a mitad de
+   pelea. Si el protagonista aceptó el don de Oscuridad de él
+   mismo (disfrazado de viajero) en el tutorial, hay diálogos
+   únicos de reconocimiento.
+
+LORE DE FONDO (aún no revelado directamente al jugador):
+Existe un grupo de magos que investiga la comunicación con
+animales mediante magia. En su búsqueda de más poder, algunos
+de ellos se han fusionado con monstruos o demonios — ese es el
+origen de la Bruja/Arpía, y probablemente se conecta con el
+Mago Domador y el porqué de los ataques dirigidos al pueblo del
+protagonista. El Mago Domador es UN MIEMBRO más de ese grupo,
+no necesariamente su líder — deja espacio para introducir a
+alguien de mayor jerarquía en capítulos futuros.
+
+COMBATES OBLIGATORIOS: tanto el combate contra la Bruja (primer
+encuentro, tras el descanso en cueva) como contra la Arpía
+(clímax de la misión de rescate del compañero perdido) son
+obligatorios de ganar para avanzar la historia. Si el jugador
+pierde, se activa un REINTENTO INMEDIATO del mismo combate (no
+se retrocede a un punto de guardado anterior ni se repite
+diálogo ya visto) — no hay una rama alternativa de derrota
+narrativa para estos dos combates.
+
+========================================================
+NOMBRES PROPIOS (definidos)
+========================================================
+- Pueblo natal del protagonista: ALDENBROCK
+- Ciudad refugio: Ciudadela del Valle Hondo (ya definida)
+- Padre del protagonista: BRAM
+- Guardia que los recibe en la ciudad (Escena 8): CORWYN
+- Aldeano que trae la pista de la misión de rescate
+  (Escena 9-B): BETTINA
+
+========================================================
+PREGUNTAS ABIERTAS / PENDIENTES DE DEFINIR
+========================================================
+- Detalle exacto de cómo se juega el "tiempo libre" del bloque 7
+  de la Escena 1 (¿cuántos encuentros de goblin, cuánto dura
+  antes de forzar el regreso a la ciudad?).
+- Quién lidera realmente el grupo de magos, si no es el Mago
+  Domador — posible gancho para el Capítulo 2.
