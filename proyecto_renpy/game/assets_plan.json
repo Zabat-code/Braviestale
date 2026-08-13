@@ -1,0 +1,285 @@
+{
+  "count": 40,
+  "items": [
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\bg_cabana_bruja_exterior_1.png",
+      "prompt": "A small, isolated wooden cabin deep in a dark forest at night, warm candlelight glowing from a single window, slightly crooked and unsettling architecture despite the inviting light, twisted trees surrounding it. Anime fantasy digital painting with a subtle uncanny quality. 16:9. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "bg cabana_bruja_exterior",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\bg_cabana_bruja_exterior_2.png",
+      "prompt": "A small, isolated wooden cabin deep in a dark forest at night, warm candlelight glowing from a single window, slightly crooked and unsettling architecture despite the inviting light, twisted trees surrounding it. Anime fantasy digital painting with a subtle uncanny quality. 16:9. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "bg cabana_bruja_exterior",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\bg_cabana_bruja_interior_1.png",
+      "prompt": "Interior of a witch's forest cabin, warm fireplace light, shelves cluttered with jars, dried herbs hanging from the ceiling, a large cauldron, cozy at first glance but with subtle unsettling details (slightly wrong angles, jars with indistinct contents). Anime fantasy digital painting. 16:9. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "bg cabana_bruja_interior",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\bg_cabana_bruja_interior_2.png",
+      "prompt": "Interior of a witch's forest cabin, warm fireplace light, shelves cluttered with jars, dried herbs hanging from the ceiling, a large cauldron, cozy at first glance but with subtle unsettling details (slightly wrong angles, jars with indistinct contents). Anime fantasy digital painting. 16:9. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "bg cabana_bruja_interior",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\bg_cabana_bruja_interior_night_1.png",
+      "prompt": "Same witch's cabin interior, now late at night — the fireplace embers are low, most of the room in deep shadow, strange magical symbols and a cauldron visible in a dim adjoining room, sense of dread. Darker, more sinister version of the same space. 16:9. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "bg cabana_bruja_interior night",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\bg_cabana_bruja_interior_night_2.png",
+      "prompt": "Same witch's cabin interior, now late at night — the fireplace embers are low, most of the room in deep shadow, strange magical symbols and a cauldron visible in a dim adjoining room, sense of dread. Darker, more sinister version of the same space. 16:9. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "bg cabana_bruja_interior night",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\padre_herrero_/_Bram_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a middle-aged male blacksmith, muscular but weathered build, short greying beard, leather apron over simple work clothes, calloused hands, a kind but tired expression. Overlord-quality anime digital painting, neutral background, character sprite for visual novel. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "padre_herrero / Bram",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\padre_herrero_/_Bram_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a middle-aged male blacksmith, muscular but weathered build, short greying beard, leather apron over simple work clothes, calloused hands, a kind but tired expression. Overlord-quality anime digital painting, neutral background, character sprite for visual novel. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "padre_herrero / Bram",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\amigo1_/_Doran,_versión_joven_de_aldea_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a teenage boy with a sturdy build, messy brown hair, simple peasant clothes, an easygoing confident grin. Earth/Tierra elemental affinity subtly implied through warm earthy color palette in clothing. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "amigo1 / Doran, versión joven de aldea",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\amigo1_/_Doran,_versión_joven_de_aldea_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a teenage boy with a sturdy build, messy brown hair, simple peasant clothes, an easygoing confident grin. Earth/Tierra elemental affinity subtly implied through warm earthy color palette in clothing. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "amigo1 / Doran, versión joven de aldea",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\amigo2_/_Mira,_versión_joven_de_aldea_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a teenage girl with a slender build, dark hair tied back practically, simple practical clothes with a satchel of books, a thoughtful sharp expression. Water/Agua elemental affinity subtly implied through cool blue-toned color accents. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "amigo2 / Mira, versión joven de aldea",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\amigo2_/_Mira,_versión_joven_de_aldea_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a teenage girl with a slender build, dark hair tied back practically, simple practical clothes with a satchel of books, a thoughtful sharp expression. Water/Agua elemental affinity subtly implied through cool blue-toned color accents. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "amigo2 / Mira, versión joven de aldea",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\doran_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a young man in his late teens, sturdy muscular build, messy brown hair, practical traveling leather armor over simple clothes, warm determined expression, subtle earthy green-brown color palette (Tierra elemental type). Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "doran",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\doran_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a young man in his late teens, sturdy muscular build, messy brown hair, practical traveling leather armor over simple clothes, warm determined expression, subtle earthy green-brown color palette (Tierra elemental type). Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "doran",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\mira_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a young woman in her late teens, slender build, dark hair, practical traveling clothes with a small satchel of scrolls/runes, intelligent watchful expression, subtle cool blue color palette (Agua elemental type). Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "mira",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\mira_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a young woman in her late teens, slender build, dark hair, practical traveling clothes with a small satchel of scrolls/runes, intelligent watchful expression, subtle cool blue color palette (Agua elemental type). Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "mira",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\director_escuela_/_Director_Aldric_1.png",
+      "prompt": "Anime fantasy character portrait, full body, an older male schoolteacher, neat grey hair, simple scholarly robes, wire- rimmed spectacles, a composed slightly aloof expression. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "director_escuela / Director Aldric",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\director_escuela_/_Director_Aldric_2.png",
+      "prompt": "Anime fantasy character portrait, full body, an older male schoolteacher, neat grey hair, simple scholarly robes, wire- rimmed spectacles, a composed slightly aloof expression. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "director_escuela / Director Aldric",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\sacerdote_iglesia_/_Hermana_Ysolde_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a middle-aged female priestess, warm gentle expression, simple pale robes with subtle gold trim, a small holy symbol pendant, serene and kind demeanor. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "sacerdote_iglesia / Hermana Ysolde",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\sacerdote_iglesia_/_Hermana_Ysolde_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a middle-aged female priestess, warm gentle expression, simple pale robes with subtle gold trim, a small holy symbol pendant, serene and kind demeanor. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "sacerdote_iglesia / Hermana Ysolde",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\viajero_misterioso_/_El_Viajero_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a mysterious cloaked figure, face partially obscured by a hood, dark flowing traveler's cloak, an unreadable calm expression with faintly glowing eyes hinting at hidden power. Subtle Sombra (shadow) elemental undertone — dark wisps at the cloak's edges. Overlord-quality anime digital painting with a slight Mob Psycho 100-esque unsettling stillness. Neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "viajero_misterioso / El Viajero",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\viajero_misterioso_/_El_Viajero_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a mysterious cloaked figure, face partially obscured by a hood, dark flowing traveler's cloak, an unreadable calm expression with faintly glowing eyes hinting at hidden power. Subtle Sombra (shadow) elemental undertone — dark wisps at the cloak's edges. Overlord-quality anime digital painting with a slight Mob Psycho 100-esque unsettling stillness. Neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "viajero_misterioso / El Viajero",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\guardia_npc_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a village guard in simple leather and chainmail armor, practical sword at his hip, alert but unremarkable expression. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "guardia_npc",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\guardia_npc_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a village guard in simple leather and chainmail armor, practical sword at his hip, alert but unremarkable expression. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "guardia_npc",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\bruja_personaje_1.png",
+      "prompt": "Anime fantasy character portrait, full body, an old woman in a dark hooded robe, unsettling calm smile, subtly WRONG anatomical details hinting at her true nature — slightly too- long fingers, an extra joint in her hand, eyes a fraction too far apart. Otherwise looks mostly human at first glance. Shadow/Sombra elemental type, dark purple-black color palette. Overlord-quality anime digital painting with a Blood-C-esque subtle body-horror undertone. Neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "bruja_personaje",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\bruja_personaje_2.png",
+      "prompt": "Anime fantasy character portrait, full body, an old woman in a dark hooded robe, unsettling calm smile, subtly WRONG anatomical details hinting at her true nature — slightly too- long fingers, an extra joint in her hand, eyes a fraction too far apart. Otherwise looks mostly human at first glance. Shadow/Sombra elemental type, dark purple-black color palette. Overlord-quality anime digital painting with a Blood-C-esque subtle body-horror undertone. Neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "bruja_personaje",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\bruja_arpia_1.png",
+      "prompt": "Anime fantasy character portrait, full body, the true form of the witch fully revealed as a harpy hybrid — dark feathers fused unnaturally with human skin, visible stitching-like seams where feathers meet flesh, taloned bird-like legs that don't quite align correctly with a humanoid torso, glowing yellow eyes, wings that emerge from the back at an anatomically wrong angle. Full body-horror transformation, Blood-C inspired grotesque fusion, Mob Psycho 100-esque distortion in the feather textures. Overlord-quality rendering detail despite the horror. Dark, dramatic lighting. Neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "bruja_arpia",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\bruja_arpia_2.png",
+      "prompt": "Anime fantasy character portrait, full body, the true form of the witch fully revealed as a harpy hybrid — dark feathers fused unnaturally with human skin, visible stitching-like seams where feathers meet flesh, taloned bird-like legs that don't quite align correctly with a humanoid torso, glowing yellow eyes, wings that emerge from the back at an anatomically wrong angle. Full body-horror transformation, Blood-C inspired grotesque fusion, Mob Psycho 100-esque distortion in the feather textures. Overlord-quality rendering detail despite the horror. Dark, dramatic lighting. Neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "bruja_arpia",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\theron_/_theron_personaje_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a young male scholar in his early twenties, neat dark hair, simple academic robes, ink-stained fingers, an intelligent slightly guarded expression. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "theron / theron_personaje",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\theron_/_theron_personaje_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a young male scholar in his early twenties, neat dark hair, simple academic robes, ink-stained fingers, an intelligent slightly guarded expression. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "theron / theron_personaje",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\wren_/_wren_personaje_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a professional female field healer in her mid-twenties, practical fitted leather-and-cloth healer's outfit, a satchel of medical supplies, short practical hairstyle, a composed guarded expression that hints at warmth underneath. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "wren / wren_personaje",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\wren_/_wren_personaje_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a professional female field healer in her mid-twenties, practical fitted leather-and-cloth healer's outfit, a satchel of medical supplies, short practical hairstyle, a composed guarded expression that hints at warmth underneath. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "wren / wren_personaje",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\elyra_personaje_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a female city guard archer in her early twenties, athletic build, practical leather archer's armor, a bow slung across her back, short or tied-back hair, a sharp alert expression with a hidden softness. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "elyra_personaje",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\elyra_personaje_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a female city guard archer in her early twenties, athletic build, practical leather archer's armor, a bow slung across her back, short or tied-back hair, a sharp alert expression with a hidden softness. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "elyra_personaje",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\sable_personaje_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a female mercenary in her mid-twenties, lean muscular build, worn practical armor with visible battle-wear, a confident guarded smirk, a scar or two hinting at a rough past. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "sable_personaje",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\sable_personaje_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a female mercenary in her mid-twenties, lean muscular build, worn practical armor with visible battle-wear, a confident guarded smirk, a scar or two hinting at a rough past. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "sable_personaje",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\thrain_1.png",
+      "prompt": "Anime fantasy character portrait, full body, a dwarf blacksmith, stocky powerful build, thick braided beard, leather smithing apron, soot-stained forearms, a gruff no-nonsense expression. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "thrain",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\thrain_2.png",
+      "prompt": "Anime fantasy character portrait, full body, a dwarf blacksmith, stocky powerful build, thick braided beard, leather smithing apron, soot-stained forearms, a gruff no-nonsense expression. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "thrain",
+      "variant": 2
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\lyanwe_1.png",
+      "prompt": "Anime fantasy character portrait, full body, an elf librarian, tall elegant build, long silver or pale hair, refined simple robes, pointed ears, a calm composed expression that suggests centuries of quiet patience. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "lyanwe",
+      "variant": 1
+    },
+    {
+      "out": "F:\\ia.proyectos\\BRAviestale\\Braviestale\\proyecto_renpy\\game\\images\\lyanwe_2.png",
+      "prompt": "Anime fantasy character portrait, full body, an elf librarian, tall elegant build, long silver or pale hair, refined simple robes, pointed ears, a calm composed expression that suggests centuries of quiet patience. Overlord-quality anime digital painting, neutral background, visual novel character sprite. Vertical composition. anime fantasy digital painting, production quality like Overlord, clean proportions, cinematic lighting, detailed textures, visual novel, no text, no watermark",
+      "kind": "character",
+      "source_id": "lyanwe",
+      "variant": 2
+    }
+  ]
+}
